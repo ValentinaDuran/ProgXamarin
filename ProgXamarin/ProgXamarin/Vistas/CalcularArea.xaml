@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProgXamarin.Vistas.CalcularArea">
+    <Grid BackgroundColor="AntiqueWhite">
+        <StackLayout VerticalOptions="Start"
+                     Margin="10,30,10,10">
+            <Image Source="https://matematicasmodernas.com/wp-content/uploads/2014/02/area-de-un-triangulo.jpg"/>
+            <Frame HasShadow="True"
+                   CornerRadius="10"
+                   Margin="0,20,0,0">
+                <Entry Keyboard="Numeric"
+                       Placeholder="Base"
+                       HorizontalOptions="Center"
+                       x:Name="Base"/>
+            </Frame>
+            <Frame HasShadow="True"
+                   CornerRadius="10"
+                   Margin="0,10,0,0">
+                <Entry Keyboard="Numeric"
+                       Placeholder="Altura"
+                       HorizontalOptions="Center"
+                       x:Name="Altura"/>
+            </Frame>
+            <Button Text="Calcular"
+                    CornerRadius="20"
+                    FontSize="Medium"
+                    Margin="10"
+                    x:Name="btncalculararea"
+                    Clicked="btncalculararea_Clicked"/>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Resultado:"
+                       FontSize="Large"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"
+                       Margin="60,20"/>
+                <Label Text=" "
+                       FontSize="Large"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"
+                       x:Name="lblresultado"/>
+            </StackLayout>
+        </StackLayout>
+    </Grid>
+</ContentPage>

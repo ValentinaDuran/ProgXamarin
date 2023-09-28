@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProgXamarin.Vistas.Menuprincipal">
+    <StackLayout BackgroundColor="AntiqueWhite">
+        <Label Text="Area de un triángulo"
+               FontSize="Large"
+               FontAttributes="Bold"
+               Margin="0,30,0,0"
+               HorizontalOptions="Center"/>
+        <Frame VerticalOptions="FillAndExpand"
+               Margin="40"
+               CornerRadius="20"
+               HasShadow="True">
+            <StackLayout VerticalOptions="Center">
+                <Image Source="https://s5.static.brasilescola.uol.com.br/be/2022/07/area-do-triangulo.jpg"/>
+                <Button Text="Iniciar"
+                        CornerRadius="20"
+                        FontSize="Medium"
+                        x:Name="BtnIniciar"
+                        Clicked="BtnIniciar_Clicked"/>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+    
+</ContentPage>
