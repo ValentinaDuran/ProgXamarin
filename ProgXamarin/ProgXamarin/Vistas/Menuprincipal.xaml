@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProgXamarin.Vistas.Menuprincipal">
     <StackLayout BackgroundColor="AntiqueWhite">
-        <Label Text="Area de un triángulo"
+        <Label Text="Área de un triángulo"
                FontSize="Large"
                FontAttributes="Bold"
                Margin="0,30,0,0"

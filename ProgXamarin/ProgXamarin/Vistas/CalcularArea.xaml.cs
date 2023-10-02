@@ -29,13 +29,7 @@ namespace ProgXamarin.Vistas
             lblresultado.Text = basexaltura.ToString();
 
         }
-        private void Validar()
-        {
-            if(!string.IsNullOrEmpty(Altura.Text))
-            {
-                Calcular();
-            }
-        }
+
 
         private void btncalculararea_Clicked(object sender, EventArgs e)
         {

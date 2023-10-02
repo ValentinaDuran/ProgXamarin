@@ -25,7 +25,7 @@
             <Button Text="Calcular"
                     CornerRadius="20"
                     FontSize="Medium"
-                    Margin="10"
+                    Margin="40"
                     x:Name="btncalculararea"
                     Clicked="btncalculararea_Clicked"/>
             <StackLayout Orientation="Horizontal">
@@ -33,7 +33,7 @@
                        FontSize="Large"
                        FontAttributes="Bold"
                        VerticalOptions="Center"
-                       Margin="60,20"/>
+                       Margin="20"/>
                 <Label Text=" "
                        FontSize="Large"
                        FontAttributes="Bold"
